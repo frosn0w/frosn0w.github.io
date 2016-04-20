@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -57,35 +57,32 @@
 
 
 
-<meta name="description" content="Dock Autohide Delay（1）. Setting Delay time (unit:t)1defaults write com.apple.dock autohide-delay -int x
-（2）. Restart Dock1killall Dock
-Power Chime
-ON
-1defaults write com.apple.PowerChime ChimeOnAllHar">
+<meta name="description" content="Dock Autohide Delay
+Setting Delay time (unit:t)defaults write com.apple.dock autohide-delay -int x
+Restart Dockkillall DockPower Chime
+ONdefaults write com.apple.PowerChime ChimeOnAllHardware -bool tr">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mac Commands">
 <meta property="og:url" content="http://kuangbin.me/2016/03/31/Mac-Commands/index.html">
 <meta property="og:site_name" content="KUANGBIN.ME">
-<meta property="og:description" content="Dock Autohide Delay（1）. Setting Delay time (unit:t)1defaults write com.apple.dock autohide-delay -int x
-（2）. Restart Dock1killall Dock
-Power Chime
-ON
-1defaults write com.apple.PowerChime ChimeOnAllHar">
-<meta property="og:updated_time" content="2016-04-20T08:01:43.000Z">
+<meta property="og:description" content="Dock Autohide Delay
+Setting Delay time (unit:t)defaults write com.apple.dock autohide-delay -int x
+Restart Dockkillall DockPower Chime
+ONdefaults write com.apple.PowerChime ChimeOnAllHardware -bool tr">
+<meta property="og:updated_time" content="2016-04-20T08:07:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mac Commands">
-<meta name="twitter:description" content="Dock Autohide Delay（1）. Setting Delay time (unit:t)1defaults write com.apple.dock autohide-delay -int x
-（2）. Restart Dock1killall Dock
-Power Chime
-ON
-1defaults write com.apple.PowerChime ChimeOnAllHar">
+<meta name="twitter:description" content="Dock Autohide Delay
+Setting Delay time (unit:t)defaults write com.apple.dock autohide-delay -int x
+Restart Dockkillall DockPower Chime
+ONdefaults write com.apple.PowerChime ChimeOnAllHardware -bool tr">
 
 
 
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Mist',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -255,14 +252,11 @@ ON
       
 
       
-        <h4 id="Dock-Autohide-Delay"><a href="#Dock-Autohide-Delay" class="headerlink" title="Dock Autohide Delay"></a>Dock Autohide Delay</h4><p>（1）. Setting Delay time (<em>unit:t</em>)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">defaults write com.apple.dock autohide-delay -int x</span><br></pre></td></tr></table></figure></p>
-<p>（2）. Restart Dock<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">killall Dock</span><br></pre></td></tr></table></figure></p>
-<h4 id="Power-Chime"><a href="#Power-Chime" class="headerlink" title="Power Chime"></a>Power Chime</h4><ol>
-<li><p>ON</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app &amp;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Off</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">defaults write com.apple.PowerChime ChimeOnAllHardware -bool false;killall PowerChime</span><br></pre></td></tr></table></figure></li>
+        <h4 id="Dock-Autohide-Delay"><a href="#Dock-Autohide-Delay" class="headerlink" title="Dock Autohide Delay"></a>Dock Autohide Delay</h4><ol>
+<li>Setting Delay time (<em>unit:t</em>)<br><code>defaults write com.apple.dock autohide-delay -int x</code></li>
+<li>Restart Dock<br><code>killall Dock</code><h4 id="Power-Chime"><a href="#Power-Chime" class="headerlink" title="Power Chime"></a>Power Chime</h4></li>
+<li>ON<br><code>defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app &amp;</code> </li>
+<li>Off<br><code>defaults write com.apple.PowerChime ChimeOnAllHardware -bool false;killall PowerChime</code></li>
 </ol>
 
       
@@ -439,7 +433,7 @@ ON
 <div class="theme-info">
   Theme -
   <a class="theme-link" href="http://kuangbin.me">
-    NexT.Mist
+    NexT.Pisces
   </a>
 </div>
 -->
@@ -492,6 +486,13 @@ ON
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=0.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=0.5.0"></script>
+
+
 
   
   
